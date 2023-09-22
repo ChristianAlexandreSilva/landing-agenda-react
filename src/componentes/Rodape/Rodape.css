@@ -1,0 +1,29 @@
+.rodape {
+    padding: 1.5rem 0rem;
+    line-height: 0.5rem;
+    text-align: center;
+    color: var(--cor-texto-rodape);
+    background-color: var(--cor-texto)
+}
+
+.rodape__conteudo {
+    font-size: 0.75rem;
+    font-family: var(--fonte-primaria);
+}
+
+.rodape nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.rodape__links {
+    font-size: 0.75rem;
+    text-decoration: none;
+    color: var(--cor-texto-rodape);
+    font-family: var(--fonte-primaria);
+}
+
+.rodape__links:hover {
+    color: var(--cor-social);
+}

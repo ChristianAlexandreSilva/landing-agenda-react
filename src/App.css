@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(./fonts/roboto-regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: regular;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(./fonts/opensans-regular.ttf) format('truetype');
+    font-weight: 300;
+    font-style: light;
+}
+
+:root {
+    --fonte-primaria: 'OpenSans', sans-serif;
+    --fonte-secundaria: 'Roboto', serif;
+
+    --cor-gradiente1: #fff;
+    --cor-gradiente2: #ff66c4;
+    --cor-destaque: #bb08a5;
+    --cor-texto: #212529;
+    --cor-subtexto: #6c757d;
+    --cor-primeira-sessao: #9e3a3a;
+    --cor-botao: #dcdcdc;
+    --cor-texto-rodape: #ffffff4d;
+    --cor-social: #fdcc52;
+    --cor-icone: #ff0000;
+    --cor-facebook: #3B5998;
+    --cor-instagram: #E4405F;
+}

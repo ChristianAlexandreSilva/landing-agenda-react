@@ -1,0 +1,44 @@
+.apresentacao__social {
+    padding: 6.25rem 0rem;
+    text-align: center;
+    background-color: var(--cor-social);
+}
+
+.social__titulo {
+    font-size: 3.2rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-texto);
+}
+
+.social__links {
+    text-decoration: none;
+}
+
+.coracao {
+    color: var(--cor-icone);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+#icon {
+    font-size: 5rem;
+}
+
+.facebook {
+    color: var(--cor-facebook);
+}
+
+.instagram {
+    background: linear-gradient(45deg, var(--cor-instagram), var(--cor-texto));
+    color: var(--cor-instagram);
+    border-radius: 20px;
+}
+
+.twitter {
+    color: var(--cor-texto);
+}

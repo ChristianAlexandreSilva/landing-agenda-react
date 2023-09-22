@@ -1,0 +1,89 @@
+.cabecalho {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+header.scroll {
+    background-color: var(--cor-gradiente1);
+}
+
+header.scroll .nav__bar__home {
+    color: var(--cor-texto);
+}
+
+header.scroll .nav__bar__home:hover {
+    color: var(--cor-social);
+}
+
+header.scroll .nav__bar__menus:hover {
+    color: var(--cor-social);
+}
+
+.cabecalho__responsivo {
+    display: none;
+}
+
+.button__responsivo {
+    margin-left: 2rem;
+    font-size: 3rem;
+}
+
+.button__responsivo:hover {
+    cursor: pointer;
+}
+
+.navegacao__responsivo {
+    padding-left: 2rem;
+    font-size: 2.5rem;
+}
+
+.nav__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20rem;
+    font-family: var(--fonte-secundaria);
+}
+
+#menu__bar {
+    display: inline-flex;
+    gap: 2.2rem;
+    padding: 0.5rem 1rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.nav__bar__home {
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-destaque);
+}
+
+.nav__bar__home:hover {
+    color: var(--cor-social);
+    cursor: pointer;
+}
+
+.nav__bar__menus {
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-texto);
+}
+
+.nav__bar__menus:hover {
+    cursor: pointer;
+    color: var(--cor-destaque);
+}
+
+
+
+

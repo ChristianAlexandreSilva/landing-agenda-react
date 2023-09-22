@@ -1,0 +1,46 @@
+.apresentacao__conteudo__download {
+    display: flex;
+    flex-direction: column;
+    line-height: 2.5rem;
+    align-items: center;
+    padding: 10rem 0rem;
+    background-color: var(--cor-social);
+}
+
+.download__titulo {
+    line-height: 3.5rem;
+    font-size: 4.5rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-texto);
+}
+
+.download__subtitulo {
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    font-family: var(--fonte-primaria);
+    color: var(--cor-texto);
+}
+
+.apresentacao__botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.botao__download {
+    border: 0;
+    background: transparent;
+}
+
+#img__botao {
+    width: 20rem;
+    height: auto;
+    cursor: pointer;
+}
+
+#img__botao__apple {
+    width: 22rem;
+    height: auto;
+    cursor: pointer;
+}

@@ -1,0 +1,907 @@
+@media (min-width:320px) and (max-width: 480px) {
+    body {
+        width: 60rem;
+    }
+
+    .cabecalho {
+        background-color: #fff;
+        transition: all 0.35s ease-in-out;
+        padding: 2rem;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .nav__bar__home {
+        font-size: 3.5rem;
+    }
+
+    .cabecalho__responsivo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navegacao__responsivo {
+        font-size: 4rem;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .active {
+        color: var(--cor-social);
+    }
+
+    #menu__bar {
+        display: none;
+    }
+
+    .apresentacao__principal {
+        width: 50rem;
+        height: auto;
+    }
+
+    .apresentacao__conteudo__principal {
+        padding: 10rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .apresentacao__titulo {
+        line-height: 5rem;
+        font-size: 4.5rem;
+        margin: 5rem 0 3rem 0;
+    }
+
+    .apresentacao__subtitulo {
+        line-height: 4rem;
+        font-size: 4rem;
+        margin-bottom: 3rem;
+    }
+
+    .botao__principal {
+        font-size: 3.5rem;
+        border: 2px solid;
+    }
+
+    .imagem__principal {
+        width: 40rem;
+        height: auto;
+    }
+
+    .apresentacao__conteudo__download {
+        line-height: 6rem;
+        text-align: center;
+        padding: 12rem 0rem;
+    }
+
+    .download__titulo {
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+
+    .download__subtitulo {
+        font-size: 3rem;
+        line-height: 4rem;
+        padding: 4rem 0rem;
+    }
+
+    .apresentacao__botoes {
+        flex-direction: column;
+    }
+
+    #img__botao {
+        width: 35rem;
+    }
+
+    #img__botao__apple {
+        width: 38rem;
+    }
+
+    .recursos {
+        padding: 8rem 0rem;
+        text-align: center;
+    }
+
+    .recursos__titulo {
+        line-height: 8rem;
+        font-size: 9rem;
+    }
+
+    .recursos__subtitulo {
+        font-size: 4rem;
+        padding: 3rem 2rem;
+        line-height: 4rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 12rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagem__recursos {
+        width: 40rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .recursos__flex {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    #icones {
+        font-size: 150px;
+    }
+
+    .icons__titulo {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .icons__subtitulo {
+        padding: 1rem 2rem;
+        font-size: 3.1rem;
+        line-height: 3rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 10rem 2rem;
+    }
+
+    .comece__titulo {
+        font-size: 10rem;
+        max-width: 35rem;
+        margin-bottom: 5rem;
+    }
+
+    .botao__comece {
+        font-size: 4rem;
+        border: 2px solid;
+    }
+
+    .redes {
+        gap: 4rem;
+    }
+
+    #icon {
+        font-size: 8rem;
+    }
+
+    .social__titulo {
+        font-size: 8rem;
+        padding-bottom: 2rem;
+    }
+
+    .rodape {
+        padding: 3rem 2rem;
+        line-height: 2rem;
+    }
+
+    .rodape__conteudo {
+        line-height: 3rem;
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .rodape__links {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+}
+
+@media (min-width:481px) and (max-width: 768px) {
+    body {
+        width: 56rem;
+    }
+
+    .cabecalho {
+        background-color: #fff;
+        transition: all 0.35s ease-in-out;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .nav__bar__home {
+        font-size: 3.2rem;
+    }
+
+    .cabecalho__responsivo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu__bar {
+        display: none;
+    }
+
+    .apresentacao__principal {
+        margin-top: 4rem;
+    }
+
+    .apresentacao__conteudo__principal {
+        padding: 7rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .apresentacao__titulo {
+        line-height: 4rem;
+        font-size: 3.5rem;
+    }
+
+    .apresentacao__subtitulo {
+        line-height: 4rem;
+        font-size: 3.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .botao__principal {
+        font-size: 2.7rem;
+        border: 2px solid;
+    }
+
+    .imagem__principal {
+        width: 32rem;
+        height: auto;
+    }
+
+    .apresentacao__conteudo__download {
+        line-height: 6rem;
+        text-align: center;
+        padding: 12rem 0rem;
+    }
+
+    .download__titulo {
+        font-size: 5.5rem;
+        line-height: 6rem;
+    }
+
+    .download__subtitulo {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        padding: 4rem 2rem;
+    }
+
+    #img__botao {
+        width: 25rem;
+    }
+
+    #img__botao__apple {
+        width: 27rem;
+    }
+
+    .recursos {
+        padding: 8rem 0rem;
+        text-align: center;
+    }
+
+    .recursos__titulo {
+        line-height: 7rem;
+        font-size: 7rem;
+    }
+
+    .recursos__subtitulo {
+        font-size: 3rem;
+        padding-top: 2rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 8rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagem__recursos {
+        width: 32rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .recursos__flex {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    #icones {
+        font-size: 150px;
+    }
+
+    .icons__titulo {
+        font-size: 3.5rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .icons__subtitulo {
+        padding: 1rem 3rem;
+        font-size: 2.8rem;
+        line-height: 3rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 10rem 2rem;
+    }
+
+    .comece__titulo {
+        font-size: 6.2rem;
+        max-width: 35rem;
+        margin-bottom: 5rem;
+    }
+
+    .botao__comece {
+        font-size: 3.5rem;
+        border: 2px solid;
+    }
+
+    .apresentacao__social {
+        padding: 10rem 0rem;
+    }
+
+    .social__titulo {
+        font-size: 7rem;
+        padding-bottom: 2rem;
+    }
+
+    .redes {
+        gap: 4rem;
+    }
+
+    #icon {
+        font-size: 6rem;
+    }
+
+    .rodape {
+        padding: 4rem 2rem;
+    }
+
+    .rodape__conteudo {
+        font-size: 1.2rem;
+        padding-bottom: 0.75rem;
+    }
+
+    .rodape__links {
+        font-size: 2.5rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px) {
+    body {
+        width: 64rem;
+    }
+
+    .cabecalho {
+        background-color: #fff;
+        transition: all 0.35s ease-in-out;
+    }
+
+    .container {
+        display: none;
+    }
+
+    .nav__bar__home {
+        font-size: 4rem;
+    }
+
+    .cabecalho__responsivo {
+        display: flex;
+        justify-content: center;
+    }
+
+    #menu__bar {
+        display: none;
+    }
+
+    .apresentacao__principal {
+        padding: 0rem 0rem 2rem 0rem;
+        width: 45rem;
+    }
+
+    .apresentacao__conteudo__principal {
+        padding: 10rem 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .apresentacao__titulo {
+        padding-top: 10rem;
+        line-height: 5rem;
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .apresentacao__subtitulo {
+        line-height: 5rem;
+        font-size: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .botao__principal {
+        font-size: 3.5rem;
+        border: 2px solid;
+    }
+
+    .imagem__principal {
+        width: 42rem;
+        height: auto;
+    }
+
+    .apresentacao__conteudo__download {
+        line-height: 6rem;
+        text-align: center;
+        padding: 12rem 0rem;
+    }
+
+    .download__titulo {
+        padding: 0rem 10rem;
+        font-size: 6rem;
+        line-height: 6rem;
+        margin-bottom: 2rem;
+    }
+
+    .download__subtitulo {
+        font-size: 1.8rem;
+        line-height: 3rem;
+        padding: 2rem 5rem;
+    }
+
+    .apresentacao__botoes {
+        flex-direction: column;
+    }
+
+    #img__botao {
+        width: 35rem;
+    }
+
+    #img__botao__apple {
+        width: 38rem;
+    }
+
+    .recursos {
+        padding: 10rem 0rem;
+        text-align: center;
+    }
+
+    .recursos__titulo {
+        padding: 0rem 3rem;
+        line-height: 10rem;
+        font-size: 9rem;
+        margin-bottom: 4rem;
+    }
+
+    .recursos__subtitulo {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding: 0rem 2rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .imagem__recursos {
+        width: 32rem;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+    .recursos__flex {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    #icones {
+        font-size: 100px;
+    }
+
+    .icons__titulo {
+        font-size: 4rem;
+        text-align: center;
+        margin: 0.75rem 0 1rem 0;
+    }
+
+    .icons__subtitulo {
+        padding: 0rem 10rem;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 7rem 2rem;
+    }
+
+    .comece__titulo {
+        font-size: 6.5rem;
+        max-width: 45rem;
+        margin-bottom: 3rem;
+    }
+
+    .botao__comece {
+        font-size: 3rem;
+        border: 2px solid;
+    }
+
+    .apresentacao__social {
+        padding: 10rem 0rem;
+    }
+
+    .social__titulo {
+        font-size: 8rem;
+        margin: 8rem 0 4rem 0;
+    }
+
+    .social__links {
+        padding: 0rem 2rem;
+    }
+
+    #icon {
+        font-size: 7rem;
+    }
+
+    .rodape {
+        padding: 2rem 0rem;
+        line-height: 2rem;
+    }
+
+    .rodape__conteudo {
+        font-size: 1rem;
+        line-height: 0.5rem;
+    }
+
+    .rodape__links {
+        font-size: 2rem;
+        padding: 0.75rem;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1164px) {
+    .apresentacao__principal {
+        width: 33rem;
+    }
+
+    .apresentacao__conteudo__principal {
+        flex-wrap: nowrap;
+        padding: 7rem 2rem;
+        gap: 2rem;
+    }
+
+    .apresentacao__titulo {
+        line-height: 3.5rem;
+        font-size: 2.8rem;
+    }
+
+    .apresentacao__subtitulo {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .apresentacao__conteudo__download {
+        line-height: 6rem;
+        text-align: center;
+        padding: 8rem 0rem;
+    }
+
+    .download__titulo {
+        padding: 0rem 10rem;
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .download__subtitulo {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 1rem 10rem;
+    }
+
+    .recursos__flex {
+        gap: 2rem;
+    }
+
+    .imagem__recursos {
+        margin-left: 3rem;
+    }
+
+    .recursos {
+        padding: 4rem 0rem;
+        text-align: center;
+    }
+
+    #icones {
+        font-size: 80px;
+    }
+
+    .recursos__titulo {
+        padding: 0rem 3rem;
+        line-height: 3rem;
+        font-size: 3.5rem;
+    }
+
+    .recursos__subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 4rem 2rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 0rem 2rem;
+        line-height: 6rem;
+    }
+
+    .botao__comece {
+        font-size: 1.2rem;
+        border: 2px solid;
+    }
+
+    .apresentacao__social {
+        padding: 10rem 0rem;
+    }
+
+    .rodape {
+        padding: 2rem 5rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__conteudo {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__links {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width:1164px) and (max-width: 1259px) {
+    .nav__bar {
+        gap: 18rem;
+    }
+
+    .apresentacao__principal {
+        width: 33rem;
+        padding: 0rem 0rem 2rem 5rem;
+    }
+
+    .apresentacao__conteudo__principal {
+        flex-wrap: nowrap;
+        padding: 7rem 3rem;
+        gap: 10rem;
+    }
+
+    .apresentacao__titulo {
+        line-height: 3.5rem;
+        font-size: 2.8rem;
+    }
+
+    .apresentacao__subtitulo {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .apresentacao__conteudo__download {
+        line-height: 6rem;
+        text-align: center;
+        padding: 8rem 0rem;
+    }
+
+    .download__titulo {
+        padding: 0rem 10rem;
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .download__subtitulo {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 1rem 10rem;
+    }
+
+    .recursos__flex {
+        gap: 5rem;
+    }
+
+    .imagem__recursos {
+        margin-left: 3rem;
+    }
+
+    .recursos {
+        padding: 4rem 0rem;
+        text-align: center;
+    }
+
+    #icones {
+        font-size: 80px;
+    }
+
+    .recursos__titulo {
+        padding: 0rem 3rem;
+        line-height: 3rem;
+        font-size: 3.5rem;
+    }
+
+    .recursos__subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 4rem 2rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 2rem 7rem;
+        line-height: 6rem;
+    }
+
+    .apresentacao__social {
+        padding: 6rem 0rem;
+    }
+
+    .rodape {
+        padding: 2rem 5rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__conteudo {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__links {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width: 1259px) and (max-width: 1350px) {
+    .nav__bar {
+        gap: 18rem;
+    }
+
+    .apresentacao__principal {
+        width: 33rem;
+        padding: 0rem 0rem 2rem 5rem;
+    }
+
+    .apresentacao__conteudo__principal {
+        flex-wrap: nowrap;
+        padding: 7rem 3rem;
+        gap: 10rem;
+    }
+
+    .apresentacao__titulo {
+        line-height: 3.5rem;
+        font-size: 2.8rem;
+    }
+
+    .apresentacao__subtitulo {
+        line-height: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .apresentacao__conteudo__download {
+        line-height: 6rem;
+        text-align: center;
+        padding: 8rem 0rem;
+    }
+
+    .download__titulo {
+        padding: 0rem 10rem;
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .download__subtitulo {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding: 1rem 10rem;
+    }
+
+    .imagem__recursos {
+        margin-left: 3rem;
+    }
+
+    .recursos {
+        padding: 4rem 0rem;
+        text-align: center;
+    }
+
+    #icones {
+        font-size: 80px;
+    }
+
+    .recursos__titulo {
+        padding: 0rem 3rem;
+        line-height: 3rem;
+        font-size: 3.5rem;
+    }
+
+    .recursos__subtitulo {
+        font-size: 1.5rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 4rem 2rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 2rem 4rem;
+        line-height: 6rem;
+    }
+
+    .apresentacao__social {
+        padding: 6rem 0rem;
+    }
+
+    .rodape {
+        padding: 2rem 5rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__conteudo {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__links {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
+
+@media (min-width:1700px) and (max-width: 2000px) {
+    .nav__bar {
+        gap: 30rem;
+    }
+
+    .apresentacao__conteudo__principal {
+        padding: 8rem 0rem 8rem 15rem;
+        gap: 15rem;
+    }
+
+    #img__botao {
+        padding-top: 2rem;
+        width: 25rem;
+    }
+
+    .apresentacao__conteudo__recursos {
+        padding: 7rem 15rem;
+    }
+
+    .apresentacao__conteudo__comece {
+        padding: 10rem 15rem;
+    }
+
+    .rodape {
+        line-height: 2rem;
+    }
+
+    .rodape__conteudo {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+
+    .rodape__links {
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
